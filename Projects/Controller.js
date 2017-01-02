@@ -1,7 +1,6 @@
 $(document).keydown(function(e)
 {
     e.preventDefault();
-    console.log(e.which);
     switch(e.which)
     {
         case 37:
@@ -21,7 +20,7 @@ $(document).keydown(function(e)
               break;
 
         default:
-                alert("undocumented action");
+                log(e.which);
     }
 });
 
