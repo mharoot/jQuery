@@ -1,9 +1,3 @@
-var GG = new GridGenerator("parent_div",100,100);
-
-$(document).ready(function(e) {
-    GG.createGrid();
-});
-
 $(document).keydown(function(e)
 {
     e.preventDefault();
