@@ -46,9 +46,9 @@ function OptionElementCreator(parentID,optionName)
           alert("ERROR");
         }
         });
-      } else if (this.parentID === 'pornstar')
+      } else if (this.parentID === 'name')
       {
-         var post_data = 'pornstar='+this.optionName; 
+         var post_data = 'name='+this.optionName; 
         //ajax handler
         jQuery.ajax({
         type: "POST",
